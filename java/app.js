@@ -26,10 +26,10 @@ const agregarnuevoboton = () => {
     nuevaCaja.setAttribute('class' , botn2.getAttribute('class'))
 
     contenedor.appendChild(nuevaCaja)
-    console.log(nuevaCaja.classList);
 
 }
 
+agregarnuevoboton()
 agregarnuevoboton()
 
 const elimanarboton = () => {
